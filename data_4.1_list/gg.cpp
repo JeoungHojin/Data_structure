@@ -99,9 +99,7 @@ void List::reverse() {
 }
 
 void List::clear() {
-	for (int i = Count-1;i == 0;i--) {
-		Count--;
-	}
+	Count = 0;
 }
 
 void List::len() {	
